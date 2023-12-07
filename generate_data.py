@@ -8,4 +8,4 @@ def generate_data():
     }
     df = pd.DataFrame(data)
     df.to_csv('/path/to/generated_data.csv', index=False)
-    print(f"{num_users} users' data generated and saved.")
+    print(df)
